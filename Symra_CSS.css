@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	height: 100dvh;
+	width: 100%;
+	font-family: "DIN Condensed";
+	background: linear-gradient(90deg, #00000044, #00000088);
+	font-style: normal;
+	font-weight: 200;
+	
+}
+
+/* BACKGROUND IMAGE */
+.bg_still {
+	position: absolute;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	caption-side: bottom;
+
+}
