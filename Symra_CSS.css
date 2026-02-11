@@ -25,3 +25,30 @@ body {
 	caption-side: bottom;
 
 }
+
+.simple-overlay {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items:flex-end;
+	gap: 0px;
+
+	position: absolute;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+	background:#AAAAAA00; 
+}
+
+.overlay_text {
+	padding: 0px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	color: #f1e7d7EE;
+	font-family: "DIN Condensed", "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-shadow: -16px 16px 20px #000000AA;
+	/*font-size: 4rem;*/
+	font-size: 1rem;
+	align-items: center;
+	
+}
