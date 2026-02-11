@@ -2,17 +2,25 @@
 /* CSS Document */
 
 body {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
+	margin: 0px;
+	padding: 0px;
 	height: 100dvh;
 	width: 100%;
 	font-family: "DIN Condensed";
-	background: linear-gradient(90deg, #00000044, #00000088);
+	background: #880000ff;
 	font-style: normal;
 	font-weight: 200;
 	
+}
+
+.main_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/* background-color: #88990044; */
+
+	height: 100%;
+	width: 100%;
 }
 
 /* BACKGROUND IMAGE */
@@ -22,33 +30,24 @@ body {
 	height: 100%;
 	width: 100%;
 	z-index: -1;
-	caption-side: bottom;
+	/* caption-side: none; */
 
-}
-
-.simple-overlay {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items:flex-end;
-	gap: 0px;
-
-	position: relative;
-	z-index: 0;
-	height: 100%;
-	width: 100%;
-	background:#AAAAAA00; 
 }
 
 .overlay_text {
-	padding: 0px;
-	margin-bottom: 15px;
-	margin-right: 10px;
+	padding-right: 30px;
+	position:relative;
+	z-index: 1;
+	text-align: end;
+	
+
+	height: 1rem;
+	width: 100% - 30px;
 	color: #f1e7d7EE;
 	font-family: "DIN Condensed", "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	text-shadow: -16px 16px 20px #000000AA;
 	/*font-size: 4rem;*/
 	font-size: 1rem;
-	align-items: center;
+	/* background-color: #00000044; */
 	
 }
